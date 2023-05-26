@@ -12,7 +12,7 @@ import { ReactComponent as CloseIcon } from 'feather-icons/dist/icons/x.svg';
 
 const Header = tw.header`
   flex justify-between items-center
-  max-w-screen-xl mx-auto
+  max-w-screen-xl mx-10
 `;
 
 export const NavLinks = tw.div`inline-block`;
@@ -89,6 +89,9 @@ export default ({
       </NavLink>
       <NavLink href='/#' tw='lg:ml-12!'>
         Login
+      </NavLink>
+      <NavLink href='/#' tw='lg:ml-12!'>
+        testnuform
       </NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`} href='/#'>
         Sign Up
